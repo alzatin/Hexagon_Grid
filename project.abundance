@@ -34,24 +34,24 @@
     },
     {
       "atomType": "Input",
-      "x": 0.05499999999999999,
-      "y": 0.3333333333333333,
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "63b69953-f87e-4ce9-8bad-e6218871d2ed",
       "name": "Hexagon Dameter",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.05499999999999999,
-      "y": 0.5333333333333333,
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
       "uniqueID": "ae2e8a7d-3c13-43d3-8b02-42ef2ca5185a",
       "name": "X Length",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.05499999999999999,
-      "y": 0.7333333333333334,
+      "x": 0.025384615384615384,
+      "y": 0.3384615384615385,
       "uniqueID": "2a5fd728-5d3a-4c04-97e3-9f0cab157877",
       "name": "Y Length",
       "type": "number"
@@ -90,8 +90,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.23875661375661375,
-      "y": 0.27019498607242337,
+      "x": 0.23240740740740742,
+      "y": 0.35060975609756095,
       "uniqueID": "e067da65-e2dc-4260-940f-e797bc35017f",
       "name": "D/2+.5*D",
       "ioValues": [
@@ -104,21 +104,21 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.27910052910052907,
-      "y": 0.6518105849582172,
+      "x": 0.2740740740740741,
+      "y": 0.7560975609756098,
       "uniqueID": "f5ebaba8-5405-4453-96d5-0c7bf848b3d5",
-      "name": "X/D+1",
+      "name": "x/D+1",
       "ioValues": [
-        {
-          "name": "X",
-          "ioValue": 300
-        },
         {
           "name": "D",
           "ioValue": 30
+        },
+        {
+          "name": "x",
+          "ioValue": 300
         }
       ],
-      "currentEquation": "X/D+1"
+      "currentEquation": "x/D+1"
     },
     {
       "atomType": "Equation",
@@ -190,22 +190,22 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.48412698412698413,
-      "y": 0.7437325905292479,
+      "x": 0.49074074074074076,
+      "y": 0.7560975609756098,
       "uniqueID": "7586bf5b-4acb-42fa-bd5b-7211e119ca1c",
-      "name": "X/2",
+      "name": "x/2",
       "ioValues": [
         {
-          "name": "X",
+          "name": "x",
           "ioValue": 30
         }
       ],
-      "currentEquation": "X/2"
+      "currentEquation": "x/2"
     },
     {
       "atomType": "Equation",
-      "x": 0.20701058201058203,
-      "y": 0.08635097493036212,
+      "x": 0.2064814814814815,
+      "y": 0.1951219512195122,
       "uniqueID": "5814a6ff-0de8-4e26-8504-6099641b21d2",
       "name": "(Y/D)/2+2",
       "ioValues": [
@@ -225,14 +225,14 @@
       "x": 0.48611111111111116,
       "y": 0.8607242339832869,
       "uniqueID": "b2c5f319-0d13-4f24-b369-042b040ef833",
-      "name": "X/-2",
+      "name": "x/-2",
       "ioValues": [
         {
-          "name": "X",
+          "name": "x",
           "ioValue": 300
         }
       ],
-      "currentEquation": "X/-2"
+      "currentEquation": "x/-2"
     },
     {
       "atomType": "Equation",
@@ -348,16 +348,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.3333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "6b6b60c1-cb4b-45dd-9416-bfd8b540a4da",
           "name": "Number",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.5333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "d7272c9f-a1fd-461d-a8d6-3d719cfdeb98",
           "name": "Geometry",
           "type": "geometry"
@@ -383,10 +383,6 @@
             {
               "name": "distZ",
               "ioValue": 0
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -394,24 +390,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.7333333333333334,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "41871188-1ae1-4db5-b837-529b34fd4550",
           "name": "distX",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.9333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.4307692307692308,
           "uniqueID": "33ea11ea-4e00-4f91-9213-e416d4ca518f",
           "name": "distY",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.95,
+          "x": 0.025384615384615384,
+          "y": 0.5230769230769231,
           "uniqueID": "1eb7002d-dc9e-4012-a349-b485781bce7b",
           "name": "distZ",
           "type": "number"
@@ -424,7 +420,7 @@
           "name": "README",
           "ioValues": [
             {
-              "name": "geometry",
+              "name": "value",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
@@ -452,10 +448,6 @@
             {
               "name": "distZ",
               "ioValue": 0
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -513,11 +505,6 @@
           "ap2Name": "distZ",
           "ap1ID": "1eb7002d-dc9e-4012-a349-b485781bce7b",
           "ap2ID": "14adbb6e-0e45-4581-a951-39d0196e98db"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "f23161e8-559e-4ad7-aaa3-15be065725a7",
-          "ap2ID": "43cfdfad-ed2d-400e-a740-aa47e1db83d3"
         },
         {
           "ap2Name": "Shape",
@@ -613,16 +600,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.3333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "76289285-179f-4c46-b087-c394583822e1",
           "name": "Number",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.5333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "1a04aa99-67e0-4fd9-91d8-ef7ccbc94f75",
           "name": "Geometry",
           "type": "geometry"
@@ -648,10 +635,6 @@
             {
               "name": "distZ",
               "ioValue": 0
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -659,24 +642,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.7333333333333334,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "4033d2e1-2fff-4e16-9eea-43c1d0b9480e",
           "name": "distX",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.9333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.4307692307692308,
           "uniqueID": "5f5b7080-7b7f-49cd-86d8-de4003cfc1fd",
           "name": "distY",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.95,
+          "x": 0.025384615384615384,
+          "y": 0.5230769230769231,
           "uniqueID": "0aedf320-5bd6-40f2-a9b4-b0635b155eba",
           "name": "distZ",
           "type": "number"
@@ -689,7 +672,7 @@
           "name": "README",
           "ioValues": [
             {
-              "name": "geometry",
+              "name": "value",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
@@ -717,10 +700,6 @@
             {
               "name": "distZ",
               "ioValue": 0
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -778,11 +757,6 @@
           "ap2Name": "distZ",
           "ap1ID": "0aedf320-5bd6-40f2-a9b4-b0635b155eba",
           "ap2ID": "4ded1931-1f98-4df6-a529-2b4f5b5cd989"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "bfc31dc7-645d-4e13-8c9e-4f2cce79e2d6",
-          "ap2ID": "01684a35-dcf6-45ef-90d2-409d1c44e9aa"
         },
         {
           "ap2Name": "Shape",
@@ -878,16 +852,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.3333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "51db1a30-d8d9-4890-8ab5-3b6647585512",
           "name": "Number",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.5333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "01e91319-9d66-4456-9dcd-48804af7ae1a",
           "name": "Geometry",
           "type": "geometry"
@@ -913,10 +887,6 @@
             {
               "name": "distZ",
               "ioValue": 0
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -924,24 +894,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.7333333333333334,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "044b6087-2689-43e0-bf2c-6e71a950b9e1",
           "name": "distX",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.9333333333333333,
+          "x": 0.025384615384615384,
+          "y": 0.4307692307692308,
           "uniqueID": "44e2b8c1-dfdd-4fc5-b03b-7d7ead4c7cf4",
           "name": "distY",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.05499999999999999,
-          "y": 0.95,
+          "x": 0.025384615384615384,
+          "y": 0.5230769230769231,
           "uniqueID": "6b5026bb-b961-4f3c-83b1-17aba006fae9",
           "name": "distZ",
           "type": "number"
@@ -954,7 +924,7 @@
           "name": "README",
           "ioValues": [
             {
-              "name": "geometry",
+              "name": "value",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
@@ -982,10 +952,6 @@
             {
               "name": "distZ",
               "ioValue": 0
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -1043,11 +1009,6 @@
           "ap2Name": "distZ",
           "ap1ID": "6b5026bb-b961-4f3c-83b1-17aba006fae9",
           "ap2ID": "d499951c-cd62-480e-8e6a-06cf60393011"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "0c779f9f-1264-4306-86b1-3850d53e32e0",
-          "ap2ID": "0908e93d-5eb8-4c69-a7f1-c29c8d63fdc9"
         },
         {
           "ap2Name": "Shape",
@@ -1116,14 +1077,9 @@
       "ap2ID": "66ec58d6-6682-45e3-9468-3092b55d8c31"
     },
     {
-      "ap2Name": "X",
+      "ap2Name": "x",
       "ap1ID": "ae2e8a7d-3c13-43d3-8b02-42ef2ca5185a",
       "ap2ID": "f5ebaba8-5405-4453-96d5-0c7bf848b3d5"
-    },
-    {
-      "ap2Name": "X",
-      "ap1ID": "ae2e8a7d-3c13-43d3-8b02-42ef2ca5185a",
-      "ap2ID": "b2c5f319-0d13-4f24-b369-042b040ef833"
     },
     {
       "ap2Name": "y length",
@@ -1141,6 +1097,11 @@
       "ap2ID": "7bd3dd79-7fe4-4a28-bb71-e859519ee9aa"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "2a5fd728-5d3a-4c04-97e3-9f0cab157877",
+      "ap2ID": "b2c5f319-0d13-4f24-b369-042b040ef833"
+    },
+    {
       "ap2Name": "Geometry",
       "ap1ID": "f432646b-dc7b-4091-b987-21451f4b2c94",
       "ap2ID": "f6bc2f48-c5ed-4fe0-91fb-3e6f2d1a6647"
@@ -1156,7 +1117,7 @@
       "ap2ID": "f6bc2f48-c5ed-4fe0-91fb-3e6f2d1a6647"
     },
     {
-      "ap2Name": "X",
+      "ap2Name": "x",
       "ap1ID": "e067da65-e2dc-4260-940f-e797bc35017f",
       "ap2ID": "7586bf5b-4acb-42fa-bd5b-7211e119ca1c"
     },

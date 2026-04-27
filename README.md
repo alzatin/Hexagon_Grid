@@ -4,6 +4,13 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **Hexagon Dameter** (number)
+- **X Length** (number)
+- **Y Length** (number)
+
+
 
 
  
